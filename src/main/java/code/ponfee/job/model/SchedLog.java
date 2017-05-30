@@ -5,7 +5,7 @@ import java.util.Date;
 
 /**
  * 调度日志
- * @author: fupf
+ * @author fupf
  */
 public class SchedLog implements Serializable {
     private static final long serialVersionUID = 2520801190208386818L;

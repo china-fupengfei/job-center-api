@@ -9,7 +9,7 @@ import code.ponfee.commons.model.Result;
 
 /**
  * 任务调度服务类
- * @author: fupf
+ * @author fupf
  */
 public interface ISchedJobService {
 

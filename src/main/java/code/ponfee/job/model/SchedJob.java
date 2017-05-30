@@ -5,7 +5,7 @@ import java.util.Date;
 
 /**
  * 调度任务实体类
- * @author: fupf
+ * @author fupf
  */
 public class SchedJob implements Serializable {
     private static final long serialVersionUID = -8101980833627039097L;
