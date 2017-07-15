@@ -4,7 +4,7 @@ import java.util.Map;
 
 import code.ponfee.job.model.SchedJob;
 import code.ponfee.job.model.SchedLog;
-import code.ponfee.commons.model.Pagination;
+import code.ponfee.commons.model.Page;
 import code.ponfee.commons.model.Result;
 
 /**
@@ -28,7 +28,7 @@ public interface ISchedJobService {
      * @param params
      * @return
      */
-    Result<Pagination<SchedJob>> queryJobsForPage(Map<String, ?> params);
+    Result<Page<SchedJob>> queryJobsForPage(Map<String, ?> params);
 
     /**
      * 增加调度任务
@@ -101,5 +101,5 @@ public interface ISchedJobService {
      * @param params
      * @return
      */
-    Result<Pagination<SchedLog>> queryLogsForPage(Map<String, ?> params);
+    Result<Page<SchedLog>> queryLogsForPage(Map<String, ?> params);
 }
