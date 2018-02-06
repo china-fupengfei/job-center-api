@@ -28,7 +28,7 @@ public class SchedJob implements Serializable {
 
     /** 调度信息：手动触发不作记录 */
     private Boolean isExecuting; // 是否正在执行：0否；1是；
-    private Long execingTimeMillis; // 本次执行时间（毫秒）
+    private Long execTimeMillis; // 本次执行时间（毫秒）
     private Date lastSchedTime; // 上一次的调度时间
     private String lastSchedServer; // 上一次的调度服务器IP
     private Date nextSchedTime; // 下一次的调度时间
@@ -153,12 +153,12 @@ public class SchedJob implements Serializable {
         this.isExecuting = isExecuting;
     }
 
-    public Long getExecingTimeMillis() {
-        return execingTimeMillis;
+    public Long getExecTimeMillis() {
+        return execTimeMillis;
     }
 
-    public void setExecingTimeMillis(Long execingTimeMillis) {
-        this.execingTimeMillis = execingTimeMillis;
+    public void setExecTimeMillis(Long execTimeMillis) {
+        this.execTimeMillis = execTimeMillis;
     }
 
     public Date getLastSchedTime() {
