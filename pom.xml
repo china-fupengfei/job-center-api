@@ -22,7 +22,7 @@
         <dependency>
             <groupId>code.ponfee</groupId>
             <artifactId>commons-code</artifactId>
-            <version>${publish.version}</version>
+            <version>1.16-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
